@@ -3,8 +3,25 @@
 **THEME** - CLIMATE RISK AND DISASTER MANAGEMENT
 
 
-# A deep learning project developed during a 4-week internship at EDUNET Foundation, in collabration with AICTE & Shell.
+**A deep learning project developed during a 4-week internship at EDUNET Foundation, in collabration with AICTE & Shell.**
+
 The project predicts cyclone tracks (latitude & longitude) and intensity (maximum wind speed) using LSTM-based models. It is deployed with Streamlit for an interactive interface where users can input cyclone data and visualize predictions on a map.
+
+**Primary uses of the project include:**
+
+Early Warning System: By predicting the path and intensity of a cyclone in advance, the system provides early alerts to local authorities and communities, helping them prepare and evacuate if necessary.
+
+Disaster Management: Accurate intensity predictions allow emergency services to allocate resources efficiently, such as deploying rescue teams, pre-positioning relief materials, and preparing shelters in high-risk zones.
+
+Urban Planning & Infrastructure Safety: Insights from cyclone predictions help planners design resilient infrastructure and reinforce vulnerable structures, reducing damage during extreme weather events.
+
+Research & Analysis: The project can serve as a research tool for meteorologists and climate scientists to study cyclone patterns, frequency, and intensity trends over time, contributing to long-term climate impact assessments.
+
+Educational & Training Tool: The interactive Streamlit application allows users to visualize cyclone paths and intensity predictions, making it a practical learning tool for students and interns in data science, AI, and meteorology.
+
+Decision Support: Governments and policy makers can use predictions to make data-driven decisions regarding coastal zone management, public safety measures, and disaster preparedness plans.
+
+By combining machine learning with interactive visualization, this project bridges the gap between complex meteorological models and practical decision-making, ultimately aiming to reduce human and economic losses caused by cyclones.
 
 📌 Features
 
@@ -35,6 +52,7 @@ Pandas / NumPy – for data handling
 📂 Project Structure
 
 Cyclone Path And Intensity Forecasting Model\
+
 │── app.py                      # Streamlit app (UI + prediction + map)
 
 │── cyclone_path_model.h5       # Trained LSTM model for path prediction
@@ -52,13 +70,16 @@ Cyclone Path And Intensity Forecasting Model\
 Clone the repository:
 
 git clone https://github.com/student-smritipandey/Cyclone-Path-And-Intensity-Forecasting-Model.git
+
 cd Cyclone Path And Intensity Forecasting Model
 
 
 Create a virtual environment (recommended):
 
 python -m venv venv
+
 source venv/bin/activate   # On Linux/Mac
+
 venv\Scripts\activate      # On Windows
 
 
@@ -87,16 +108,10 @@ Cyclone track on interactive map (orange polyline).
 
 Final predicted location marker (red).
 
-📸 Demo Screenshots
-
-
-![alt text](C1.png)
-
-![alt text](C2.png)
-
 
 📌 Example Input
-Timestep 1 → Year: 2025, Month: 9, Day: 13, Hour: 6, Lat: 12.0, Lon: 75.0, MaxWind: 50, Pressure: 980  
+Timestep 1 → Year: 2025, Month: 9, Day: 13, Hour: 6, Lat: 12.0, Lon: 75.0, MaxWind: 50, Pressure: 980 
+
 Timestep 2 → Year: 2025, Month: 9, Day: 13, Hour: 12, Lat: 12.2, Lon: 75.3, MaxWind: 55, Pressure: 978  
 ...
 
@@ -105,12 +120,19 @@ Timestep 2 → Year: 2025, Month: 9, Day: 13, Hour: 12, Lat: 12.2, Lon: 75.3, Ma
 See requirements.txt:
 
 streamlit
+
 tensorflow
+
 scikit-learn
+
 numpy
+
 pandas
+
 folium
+
 streamlit-folium
+
 joblib
 
 
