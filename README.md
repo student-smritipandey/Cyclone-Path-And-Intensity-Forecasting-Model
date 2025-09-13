@@ -3,7 +3,7 @@
 **THEME** - CLIMATE RISK AND DISASTER MANAGEMENT
 
 
-**A deep learning project developed during a 4-week internship at EDUNET Foundation, in collabration with AICTE & Shell.**
+**A deep learning project developed during a 4-weeks internship at EDUNET Foundation, in collabration with AICTE & Shell.**
 
 The project predicts cyclone tracks (latitude & longitude) and intensity (maximum wind speed) using LSTM-based models. It is deployed with Streamlit for an interactive interface where users can input cyclone data and visualize predictions on a map.
 
