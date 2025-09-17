@@ -104,7 +104,6 @@ View results:
 
 Predicted Intensities (knots).
 
-Cyclone track on interactive map (orange polyline).
 
 Final predicted location marker (red).
 
